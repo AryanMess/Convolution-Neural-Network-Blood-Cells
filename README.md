@@ -1,4 +1,4 @@
-# Convolution-Neural-Network-Blood-Cells
+# 2D Convolution-Neural-Network-Blood-Cells-Classification
 Blood Cell Image Classifier using 2D Convolution Neural Network(PyTorch,Numpy,SkImage)
 
 
@@ -10,6 +10,7 @@ This dataset contains 12,500 augmented images of blood cells (JPEG) with accompa
 
 Source : https://www.kaggle.com/datasets/paultimothymooney/blood-cells?datasetId=9232&sortBy=dateRun&tab=profile
 
+Image Batches are random using valid "SubsetRandomSampler" and have been tranformed to "Tensors" and random variations have been included by "Transforms.Compose([])".
 
 The Architecutre contains a 
 
